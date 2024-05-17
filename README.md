@@ -6,6 +6,8 @@ Design is not finished and has not been tested.
 Design based on dotcypress's uHub board, with identical USB port positioning: https://github.com/dotcypress/uhub
 STM32 design learned from Sleepdealr's Kingsaver Replacement PCB: https://github.com/Sleepdealr/Kingsaver-Replacement-PCB
 
+![3D render of board](ukeeb.png)
+
 The goal is to get some of the functionality of both boards together, at a slightly lower manufacturing cost.
 
 - Two USB C ports connected directly to the USB C pins, to avoid the need for a USB hub.
