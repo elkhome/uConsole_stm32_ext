@@ -19,11 +19,11 @@ With a CM4, you’d be able to program the STM32 over UART or I2C. With any othe
 
 The pins to program and reset the STM32 would be accessible either by physical button or over GPIO.
 
-Power management is dependent on the uConsole (there’s no on-board linear regulator, and the device USB port has it’s power line disconnected). In theory, I could change this?
-
 My main goal for the STM32 would be to use it as a USB HID device, sending keyboard commands to a headless computer over USB.
 
 If I can find physical space on the board, I might also try to break out more microcontroller pins to possibly allow myself to solder in a sensor or LEDs or something.
+
+Power management is dependent on the uConsole (there’s no on-board linear regulator, and the device USB port has it’s power line disconnected). In theory, I could change this?
 
 This is my first STM32 project and my first fully assembled PCB project (I’ve only done keyboards before), so I’m not entirely sure what I’m doing.
 
